@@ -1,1 +1,3 @@
 # 16-bit-LFSR-on-FPGA
+
+This project involved the design and implementation of a 16-bit Linear Feedback Shift Register (LFSR) using Verilog on an Altera Cyclone II FPGA development board. The objective was to generate pseudo-random sequences for use in digital systems such as cryptography, testing, and communication protocols. The LFSR was designed with a specific tap configuration to achieve a maximal length sequence, ensuring high randomness and efficiency. The hardware design was simulated and verified using ModelSim, and synthesized with Quartus II before deployment on the FPGA. The final output was validated by observing the generated sequence via onboard LEDs and signal analyzers
